@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #7A7C80;
+
+}
+
+.name-cap{
+    color:#50a5be !important;
+    font-size: 56px !important;
+    font-weight: 600;
+    text-decoration: solid;
+}
+
+.heading-name{
+    font-size: 46px;
+    color:darkgray;
+    font-weight: 600;
+    text-decoration: solid;
+}
+
+hr.new2 {
+    width:250px;
+    border-top: 1px dashed darkgray;
+  }
+
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #7A7C80;
+    text-decoration: none;
+}
+
+.name-section{
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.name-section p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.name-section a{
+    color:#959595;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+
+.name-section a:hover{
+    color: #50a5be;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.abstract-section{
+    padding-top: 20vh;
+    
+}
+
+.about-section{
+    padding-top: 10vh;
+    min-height: 200px;
+}
+
+.about-section p{
+    padding-left: 70px;
+}
+
+.about-img{
+    padding-top: 10vh;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.hobby-section{
+    min-height: 200px;
+    padding-left: 50px;
+}
+
+.hobby-section h2{
+    font-size: 28px;
+    color:#595959;
+    font-weight: 600;
+    text-decoration: solid;
+}
+
+.hobby-img{
+    margin-left: 50px;
+    text-align: left;
+}
+
+.heading-about{
+    text-align: center;
+    font-size: 28px;
+    color:#595959;
+    font-weight: 600;
+    text-decoration: solid;
+}
+
+.project-section{
+    display: flex;
+    min-height: 200px;
+    background: #d3d3d3;
+    color:#595959;
+}
+
+.project-section-left{
+    width:30%;
+    text-align: center;
+    background-image: url("images/abstract2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.project-section-left h2{
+    padding-top: 30%;
+    margin-left: -10%;
+    font-size: 28px;
+    color:#595959;
+    font-weight: 600;
+    text-decoration: solid;
+}
+
+.project-section-right{
+    width:70%;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+.project-detail{
+    display: inline-block;
+    min-width : 50%;
+    min-height: 200px;
+}
+
+.footer-area{
+    text-align: center;
+    min-height: 100px;
+    width:100%;
+    background: white;
+    color:#50a5be;
+    line-height: 100px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+}
